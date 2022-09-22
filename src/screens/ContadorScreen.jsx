@@ -7,19 +7,11 @@ export const ContadorScreen = () => {
 
   return (
     <View style={style.container}>
-      <Text style={style.title}> Contador: {contador} </Text>
+      <Text style={style.title}> CONTADOR: {contador} </Text>
 
       <Fab title="+1" position="br" onPress={() => setContador(contador + 1)} />
 
       <Fab title="-1" position="bl" onPress={() => setContador(contador - 1)} />
-
-      {/* <TouchableOpacity
-        style={style.fabLocationBL}
-        onPress={() => setContador(contador - 1)}>
-        <View style={style.fab2}>
-          <Text style={style.fabText}>-1</Text>
-        </View>
-      </TouchableOpacity> */}
     </View>
   );
 };

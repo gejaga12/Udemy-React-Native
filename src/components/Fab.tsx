@@ -25,7 +25,7 @@ export const Fab = ({title, onPress, position = 'br'}: Props) => {
           onPress={onPress}
           background={TouchableNativeFeedback.Ripple('#28425B', false, 30)}>
           <View style={styles.fab}>
-            <Text style={styles.fabText}>{title}</Text>
+            <Text style={styles.fabText}> {title}</Text>
           </View>
         </TouchableNativeFeedback>
       </View>
