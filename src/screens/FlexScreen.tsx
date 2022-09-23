@@ -15,9 +15,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#28C4D9',
+    // alignItems: 'center',
     // flexDirection: 'row',
-    // alignItems: 'flex-start',
-    // justifyContent:'flex-end'
+    // justifyContent:'center',
+    // flexWrap: 'wrap',
+    // alignContent: 'space-between',
     // height: 300,
   },
   caja1: {

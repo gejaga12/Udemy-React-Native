@@ -4,12 +4,13 @@ import {SafeAreaView} from 'react-native';
 // import { DimensionesScreen } from './src/screens/DimensionesScreen';
 // import { PositionScreen } from './src/screens/PositionScreen';
 // import {ContadorScreen} from './src/screens/ContadorScreen';
-import { FlexScreen } from './src/screens/FlexScreen';
+// import { FlexScreen } from './src/screens/FlexScreen';
+import { TareaScreen } from './src/screens/TareaScreen';
 
 export const App = () => {
   return (
     <SafeAreaView style={{ flex: 1}}>
-      <FlexScreen />
+      <TareaScreen />
     </SafeAreaView>
   );
 };
