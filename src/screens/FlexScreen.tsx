@@ -15,20 +15,34 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#28C4D9',
+    // flexDirection: 'row',
+    // alignItems: 'flex-start',
+    // justifyContent:'flex-end'
+    // height: 300,
   },
   caja1: {
+    // alignSelf: 'center',
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
+    color: 'red',
+    backgroundColor: 'black',
+    
   },
   caja2: {
+    // alignSelf: 'flex-end',
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
+    color: 'green',
+    backgroundColor: 'black'
   },
   caja3: {
+    // alignSelf: 'flex-start',
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
+    color: 'yellow',
+    backgroundColor: 'black'
   },
 });
